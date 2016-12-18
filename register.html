@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<?php
+
+session_start();
+include("connect.php");
+error_reporting(0);
+
+?>
+
+<head>  
+<title> WSR </title>
+<meta charset="UTF-8">
+
+<link href="icon.ico" rel="shortcut icon" type="image/x-icon">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class=outterimage style = "position: relative">                      
+      <br><br>  
+         <form method="post" action = "test.php">
+            <b> First Name: </b> <input type="text"  name="first" style="color:midnightblue">
+            <b> Last Name: </b> <input type="text"  name="last" style="color:midnightblue"> <br><br>
+               <b> Desired Username: </b> <input type="text"  name="duser" style="color:midnightblue">
+               <b> Desired Password: </b> <input type="password"  name="dpass" style="color:midnightblue"> <br> <br>
+                <b>  E-mail: </b> <input type="text"  name="email" style="color:midnightblue">
+               <b> Credit Card: </b> <input type="text"  name="credit" style="color:midnightblue"> <br> <br>
+              
+              <input type="submit" id="finish" name="finish" class="btn btn-info" value="Complete Registration">
+              
+<input type = "button" class="btn btn-info" role="button" value="Go Back" name="Goback" onClick = "location.href = 'screen.php'"/>
+
+              <input type="reset" name="reset" class="btn btn-info" role="button" value="Reset Registration"/> 
+              </form>
+             
+<!--              
+<iframe src="http://slideful.com/v20151112_1209125809064278_ijf.htm" frameborder="0" style="border:0px;padding:0px;margin:0px;width:1000px ; height:700px;" allowtransparency="true">
+<a href="http://slideful.com/v20151112_1209125809064278_pf.htm">View the slide show</a></iframe>
+    </div>
+    -->
+</body>    
+</html>

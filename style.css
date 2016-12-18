@@ -1,0 +1,93 @@
+
+body{
+    background-color: ghostwhite; 
+}
+
+box-shadow: 10px 10px 5px 2px #999999;
+
+div.right {
+ align-content: right; 
+    text-align: right;
+}
+
+div.menu2 { 
+ color: white;
+    background-image: url(menubar.jpg); 
+    height: 200px;
+    width: 3000px ;    
+}
+div.menua { 
+ color: white;
+    background-image: url(menubar.jpg); 
+    height: 250px;
+    width: 3000px ;    
+}
+
+
+div.positionpass {
+    position: relative;
+    text-align: center;
+}
+
+div.outterimage {
+    color:midnightblue;
+    align-content: center;
+     text-align: center;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+  position: relative;
+    
+}
+
+div.innerimage {
+   text-align: center;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+  position: fixed;
+  
+   
+    top:-520px;
+}
+
+div.textposition{
+position:relative;
+    top:-445px;
+}
+
+a{
+    color:midnightblue;
+}
+
+h1,h2,h3 {
+    color: midnightblue;
+   
+}
+
+h4 {
+    color: midnightblue;
+     width: 30em; 
+    border: 1px solid #000000;
+    word-wrap: break-word;
+}
+ul {
+    color: whitesmoke; 
+    font-family:Comic Sans Ms;
+}
+p.borderblue{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #293E6A;
+}
+table,td,tr{
+    color:midnightblue; 
+      align-content: center;
+     text-align: center;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+  position: relative;  
+}
+
+div.tablel { text-align: left;}
